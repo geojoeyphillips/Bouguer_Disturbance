@@ -1,0 +1,41 @@
+name: seis_gen
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - cartopy
+  - earthpy
+  - gdown
+  - geocoder
+  - geopy
+  - gmt==6.2.*
+  - ipywidgets
+  - jupyter
+  - jupyterlab
+  - mpi4py
+  - numba
+  - obspy
+  - pandas
+  - plotly
+  - proj
+  - pyasdf
+  - pycwt
+  - pygmt
+  - pypdf2
+  - pyproj
+  - pyshp
+  - utm
+  - matplotlib
+  - numpy
+  - scipy
+  - basemap
+  - ffmpeg
+  - bs4
+  - seaborn
+  - openpyxl
+  # Fatiando a Terra libraries
+  - pooch==1.5.0,<2.0.0
+  - verde
+  - boule==0.3.*
+  - harmonica==0.3.*
+  - ensaio>=0.2.0
